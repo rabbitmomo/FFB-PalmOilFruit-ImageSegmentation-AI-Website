@@ -1,0 +1,33 @@
+  .result-container {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px; 
+  }
+  
+  .result-image {
+    margin-bottom: 20px; 
+  }
+  
+  .detection {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+  }
+  
+  .detection-item {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 5px; 
+  }
+  
+  .detection-title {
+    font-weight: bold; 
+  }
+  
+  .image-large {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
